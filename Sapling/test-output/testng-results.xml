@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+    <line>
+      <![CDATA[https://quality.saplingapp.io/#/updates]]>
+    </line>
+    <line>
+      <![CDATA[Login sucess]]>
+    </line>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="24721" started-at="2018-10-26T07:31:22Z" finished-at="2018-10-26T07:31:46Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="24721" started-at="2018-10-26T07:31:22Z" finished-at="2018-10-26T07:31:46Z">
+      <class name="com.main.test.Saplingtest">
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:com.main.test.Saplingtest@4b9e13df]" name="beforeTest" is-config="true" duration-ms="8148" started-at="2018-10-26T13:01:22Z" finished-at="2018-10-26T13:01:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="login()[pri:0, instance:com.main.test.Saplingtest@4b9e13df]" name="login" duration-ms="16423" started-at="2018-10-26T13:01:30Z" finished-at="2018-10-26T13:01:46Z">
+          <reporter-output>
+            <line>
+              <![CDATA[https://quality.saplingapp.io/#/updates]]>
+            </line>
+            <line>
+              <![CDATA[Login sucess]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="TearDown()[pri:0, instance:com.main.test.Saplingtest@4b9e13df]" name="TearDown" is-config="true" duration-ms="132" started-at="2018-10-26T13:01:46Z" finished-at="2018-10-26T13:01:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TearDown -->
+      </class> <!-- com.main.test.Saplingtest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
